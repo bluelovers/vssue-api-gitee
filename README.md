@@ -2,6 +2,8 @@
 
     Vssue API for Gitee
 
+![image](image.png)
+
 ```ts
 <script>
   import "imStyles/vssue.styl";

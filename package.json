@@ -2,16 +2,16 @@
   "name": "vssue-api-gitee",
   "version": "1.0.0",
   "description": "Vssue API for Gitee",
-  "license": "ISC",
-  "author": "",
-  "main": "index.js",
   "keywords": [
     "comment",
     "issue",
     "vssue",
-    "vuepress",
-    "vue"
+    "vue",
+    "vuepress"
   ],
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
   "scripts": {
     "coverage": "npx nyc npm run test",
     "ncu": "npx npm-check-updates -u",
