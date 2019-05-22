@@ -1,0 +1,10 @@
+{
+  "extends": "@bluelovers/tsconfig",
+  "compilerOptions": {
+    "lib": ["esnext", "dom", "dom.iterable"],
+    "sourceMap": false,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "module": "es2015"
+  }
+}
