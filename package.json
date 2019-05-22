@@ -1,6 +1,6 @@
 {
   "name": "vssue-api-gitee",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vssue API for Gitee",
   "keywords": [
     "comment",
@@ -9,11 +9,23 @@
     "vue",
     "vuepress"
   ],
+  "homepage": "https://github.com/bluelovers/vssue-api-gitee#readme",
+  "bugs": {
+    "url": "https://github.com/bluelovers/vssue-api-gitee/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluelovers/vssue-api-gitee.git"
+  },
   "license": "ISC",
   "author": "",
   "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
     "coverage": "npx nyc npm run test",
+    "lint": "npx eslint **/*.ts",
     "ncu": "npx npm-check-updates -u",
     "prepublishOnly": "npm run ncu && npm run sort-package-json",
     "sort-package-json": "npx sort-package-json ./package.json",
